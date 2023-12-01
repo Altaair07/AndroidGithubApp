@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidGithubAppSub2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="colorPrimary">#365ca8</item>
+    </style>
+
+    <style name="Theme.AndroidGithubAppSub2" parent="Base.Theme.AndroidGithubAppSub2" />
+</resources>
